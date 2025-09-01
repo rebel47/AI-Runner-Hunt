@@ -1,0 +1,79 @@
+# Flutter/Dart
+.dart_tool/
+.packages
+build/
+pubspec.lock
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-versions
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VS Code
+.vscode/
+
+# Android
+android/app/debug/
+android/app/profile/
+android/app/release/
+android/key.properties
+android/local.properties
+
+# iOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+ios/Runner/GoogleService-Info.plist
+
+# Firebase
+.firebase
+.env
+.env.*
+firebase.json
+firestore.indexes.json
+firestore.rules
+storage.rules
+functions/.env
+functions/node_modules/
+functions/lib/
+functions/package-lock.json
+functions/google-services.json
+functions/GoogleService-Info.plist
+
+# Sensitive files
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.jks
+*.keystore
+*.crt
+*.der
+*.db
+*.sqlite
+*.log
+
+# Test/Debug
+coverage/
+*.log
+*.tmp
+
+# Misc
+.DS_Store
+Thumbs.db
+
+# Future sensitive files
+**/secrets/
+**/private/
+**/config/
+**/credentials/
+**/keys/
+**/certs/
+**/tokens/
+**/backups/

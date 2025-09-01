@@ -1,0 +1,32 @@
+name: ai_runner_hunt
+description: A Flutter mobile game where users chase virtual AI runners on a map to win prizes.
+version: 1.0.0+1
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.10.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: any
+  firebase_auth: any
+  cloud_firestore: any
+  firebase_storage: any
+  firebase_messaging: any
+  google_sign_in: any
+  google_maps_flutter: any
+  geolocator: any
+  permission_handler: any
+  flutter_stripe: any
+  provider: any
+  uuid: any
+  http: any
+  intl: any
+  health: any
+  image_picker: any
+  shared_preferences: any
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: any
+flutter:
+  uses-material-design: true
